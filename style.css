@@ -1,0 +1,44 @@
+*{
+    font-family: 'segoe UI';
+}
+
+
+body{
+    background-color: #ffffff;
+    width: auto;
+    height: auto;
+}
+
+.main{
+   text-align: center;
+}
+h1{
+    border: 5px solid #000000;
+    background-color: #635559;
+
+}
+.cardscontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+    
+}
+
+.card{
+    width: auto;
+    height: auto;
+    border: 5px solid #000000;
+    background-color: #653264;
+    display: grid;
+    grid-gap: 10px;
+    border-radius: 5px;
+}
+
+.task{
+    width: auto;
+    height: auto;
+    /* border: 5px solid #f2ff00; */
+    background-color: #959595;
+}
+
